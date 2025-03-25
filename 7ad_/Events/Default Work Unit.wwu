@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1AD79E22-EE39-435F-AD76-347889FB4D26}" SchemaVersion="123">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{1AD79E22-EE39-435F-AD76-347889FB4D26}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1AD79E22-EE39-435F-AD76-347889FB4D26}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_New_Random_Container" ID="{8A40D81F-E15B-4EB2-B0C1-61E1C2BFF1D8}">
+					<ChildrenList>
+						<Action Name="" ID="{D5AB8D74-1A09-4C96-BEAE-39F445CA3C73}" ShortID="130182638">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="New Random Container" ID="{797BF062-2BC4-4E18-8567-06F84308A5DE}" WorkUnitID="{805BC6F6-7D4A-4BC2-BEAC-ABEA680FE089}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_New_Random_Container_01" ID="{0323CB86-533B-44F5-91D7-6AC1ABC35179}">
+					<ChildrenList>
+						<Action Name="" ID="{7F70DBF8-054C-4E0A-A8DB-DA63E7D4AEF1}" ShortID="168885280">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="New Random Container" ID="{797BF062-2BC4-4E18-8567-06F84308A5DE}" WorkUnitID="{805BC6F6-7D4A-4BC2-BEAC-ABEA680FE089}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
